@@ -1,4 +1,6 @@
 {
+  "buildCommand": "npm run build && npm run copy-index",
+  "outputDirectory": "public",
   "rewrites": [
     {
       "source": "/(.*)",
